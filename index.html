@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="anime quiz,otaku quiz, gaming quiz, anime trivia, gaming trivia, anime questions, gaming questions, quiz game, anime and gaming, quiz, trivia"
+    />
+    <meta
+      name="description"
+      content="Test your knowledge with our fun and challenging anime and gaming quiz. Answer questions about your favorite anime series and video games."
+    />
+    <meta name="author" content="David Ewing, Web Developer" />
+    <meta name="robots" content="index, follow" />
+    <link rel="icon" type="image/x-icon" href="./avatars/QuizFavicon.png" />
+    <title>Anime and Gaming Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <div class="page_container background_dark" id="PAGE">
+        <div aria-label="page controls" class="controls">
+          <div aria-label="social media links">
+            <a
+              class="social_media_link"
+              href="https://www.linkedin.com/in/webdeveloperdavid/
+            "
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <path
+                  d="M6.5 8C7.32843 8 8 7.32843 8 6.5C8 5.67157 7.32843 5 6.5 5C5.67157 5 5 5.67157 5 6.5C5 7.32843 5.67157 8 6.5 8Z"
+                />
+                <path
+                  d="M5 10C5 9.44772 5.44772 9 6 9H7C7.55228 9 8 9.44771 8 10V18C8 18.5523 7.55228 19 7 19H6C5.44772 19 5 18.5523 5 18V10Z"
+                />
+                <path
+                  d="M11 19H12C12.5523 19 13 18.5523 13 18V13.5C13 12 16 11 16 13V18.0004C16 18.5527 16.4477 19 17 19H18C18.5523 19 19 18.5523 19 18V12C19 10 17.5 9 15.5 9C13.5 9 13 10.5 13 10.5V10C13 9.44771 12.5523 9 12 9H11C10.4477 9 10 9.44772 10 10V18C10 18.5523 10.4477 19 11 19Z"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M20 1C21.6569 1 23 2.34315 23 4V20C23 21.6569 21.6569 23 20 23H4C2.34315 23 1 21.6569 1 20V4C1 2.34315 2.34315 1 4 1H20ZM20 3C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H20Z"
+                />
+              </svg>
+            </a>
+          </div>
+
+          <div aria-label="dark/light theme button" id="THEME">
+            <div id="DARK" class="dark">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 32 32"
+                class="icon"
+              >
+                <g id="Lager_94" data-name="Lager 94" transform="translate(0)">
+                  <path
+                    id="Path_70"
+                    data-name="Path 70"
+                    d="M12.516,4.509A12,12,0,0,0,22.3,19.881,12.317,12.317,0,0,0,24,20a11.984,11.984,0,0,0,3.49-.514,12.1,12.1,0,0,1-9.963,8.421A12.679,12.679,0,0,1,16,28,12,12,0,0,1,12.516,4.509M16,0a16.5,16.5,0,0,0-2.212.15A16,16,0,0,0,16,32a16.526,16.526,0,0,0,2.01-.123A16.04,16.04,0,0,0,31.85,18.212,16.516,16.516,0,0,0,32,15.944,1.957,1.957,0,0,0,30,14a2.046,2.046,0,0,0-1.23.413A7.942,7.942,0,0,1,24,16a8.35,8.35,0,0,1-1.15-.08,7.995,7.995,0,0,1-5.264-12.7A2.064,2.064,0,0,0,16.056,0Z"
+                  />
+                </g>
+              </svg>
+            </div>
+            <div id="LIGHT" class="light none">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <path
+                  d="M11 1C11 0.447715 11.4477 0 12 0C12.5523 0 13 0.447715 13 1V3C13 3.55228 12.5523 4 12 4C11.4477 4 11 3.55228 11 3V1Z"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M18 12C18 15.3137 15.3137 18 12 18C8.68629 18 6 15.3137 6 12C6 8.68629 8.68629 6 12 6C15.3137 6 18 8.68629 18 12ZM8.06167 12C8.06167 14.1751 9.82492 15.9383 12 15.9383C14.1751 15.9383 15.9383 14.1751 15.9383 12C15.9383 9.82492 14.1751 8.06167 12 8.06167C9.82492 8.06167 8.06167 9.82492 8.06167 12Z"
+                />
+                <path
+                  d="M20.4853 3.51472C20.0947 3.12419 19.4616 3.12419 19.0711 3.51472L17.6568 4.92893C17.2663 5.31946 17.2663 5.95262 17.6568 6.34315C18.0474 6.73367 18.6805 6.73367 19.0711 6.34315L20.4853 4.92893C20.8758 4.53841 20.8758 3.90524 20.4853 3.51472Z"
+                />
+                <path
+                  d="M1 13C0.447715 13 0 12.5523 0 12C0 11.4477 0.447715 11 1 11H3C3.55228 11 4 11.4477 4 12C4 12.5523 3.55228 13 3 13H1Z"
+                />
+                <path
+                  d="M3.51472 3.51472C3.1242 3.90524 3.1242 4.53841 3.51472 4.92893L4.92894 6.34315C5.31946 6.73367 5.95263 6.73367 6.34315 6.34315C6.73368 5.95262 6.73368 5.31946 6.34315 4.92893L4.92894 3.51472C4.53841 3.12419 3.90525 3.12419 3.51472 3.51472Z"
+                />
+                <path
+                  d="M11 21C11 20.4477 11.4477 20 12 20C12.5523 20 13 20.4477 13 21V23C13 23.5523 12.5523 24 12 24C11.4477 24 11 23.5523 11 23V21Z"
+                />
+                <path
+                  d="M6.34315 17.6569C5.95263 17.2663 5.31946 17.2663 4.92894 17.6569L3.51473 19.0711C3.1242 19.4616 3.1242 20.0948 3.51473 20.4853C3.90525 20.8758 4.53842 20.8758 4.92894 20.4853L6.34315 19.0711C6.73368 18.6805 6.73368 18.0474 6.34315 17.6569Z"
+                />
+                <path
+                  d="M21 13C20.4477 13 20 12.5523 20 12C20 11.4477 20.4477 11 21 11H23C23.5523 11 24 11.4477 24 12C24 12.5523 23.5523 13 23 13H21Z"
+                />
+                <path
+                  d="M17.6568 17.6569C17.2663 18.0474 17.2663 18.6805 17.6568 19.0711L19.0711 20.4853C19.4616 20.8758 20.0947 20.8758 20.4853 20.4853C20.8758 20.0948 20.8758 19.4616 20.4853 19.0711L19.0711 17.6569C18.6805 17.2663 18.0474 17.2663 17.6568 17.6569Z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <div aria-label="quiz menu" class="container" id="MENUCONTAINER">
+          <div class="menu_container">
+            <div aria-label="greeting message container">
+              <h2 class="heading-md center">
+                Welcome to the Anime and Gaming Quiz.
+              </h2>
+            </div>
+            <div class="difficulty_menu">
+              <p class="difficulty_text">Please select difficulty:</p>
+              <button
+                aria-label="difficulty easy"
+                class="default-button"
+                id="EASY"
+              >
+                Easy
+              </button>
+              <button
+                aria-label="difficulty medium"
+                class="default-button"
+                id="MEDIUM"
+              >
+                Medium
+              </button>
+              <button
+                aria-label="difficulty hard"
+                class="default-button"
+                id="HARD"
+              >
+                Hard
+              </button>
+            </div>
+            <div class="test"></div>
+          </div>
+        </div>
+
+        <div
+          aria-label="quiz question and option selection container"
+          class="container"
+          id="QUIZCONTAINER"
+        >
+          <div class="quiz_container">
+            <div class="avatar_container">
+              <img class="avatar" id="AVATAR" src="#" alt="avatar" />
+            </div>
+
+            <div
+              aria-label="questions remaining"
+              class="quiz_length"
+              id="QUIZLENGTH"
+            >
+              Lorem ipsum dolor sit amet.
+            </div>
+
+            <div class="quiz_question">
+              <h2 aria-label="quiz question" class="heading-md" id="QUESTION">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aspernatur, quae?
+              </h2>
+            </div>
+
+            <div aria-label="quiz select option menu" class="quiz_options">
+              <button aria-label="option one" class="option" id="OPTION-1">
+                Lorem ipsum dolor sit amet.
+              </button>
+
+              <button aria-label="option two" class="option" id="OPTION-2">
+                Lorem ipsum dolor sit amet.
+              </button>
+
+              <button aria-label="option three" class="option" id="OPTION-3">
+                Lorem ipsum dolor sit amet.
+              </button>
+
+              <button aria-label="option four" class="option" id="OPTION-4">
+                Lorem ipsum dolor sit amet.
+              </button>
+            </div>
+
+            <div class="trivia_container">
+              <p aria-label="trivia knowledge" class="text-sm" id="TRIVIA">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla,
+                neque?
+              </p>
+              <button
+                aria-label="toggle next question button"
+                id="NEXT"
+                class="default-button"
+              >
+                Next Question
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div
+          aria-label="quiz score container"
+          class="container"
+          id="SCORECONTAINER"
+        >
+          <div class="score_container">
+            <div class="score_text">
+              <h2>Congratulations you scored:</h2>
+              <span class="score">Score</span>
+              <p class="score_msg">You're a Anime and Gaming Wizard!</p>
+            </div>
+
+            <div>
+              <button class="default-button" id="REPLAY">Play Again</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="app.js"></script>
+    <script type="module" src="theme.js"></script>
+  </body>
+</html>
