@@ -1,6 +1,6 @@
 import quiz from "../json/Quiz.js";
 
-//PAGE ELEMENT
+//PAGE STATE
 let ele = 0;
 
 //MENU
@@ -32,6 +32,7 @@ const scoreMsg = document.querySelector(".score_msg");
 const REPLAY = document.getElementById("REPLAY");
 let score = 0;
 
+// FILTER JSON
 const EASYMODE = quiz.filter((ele) => {
   return ele.Difficulty == "Easy";
 });
@@ -44,6 +45,7 @@ const HARDMODE = quiz.filter((ele) => {
   return ele.Difficulty == "Hard";
 });
 
+// ANIMATE PAGE STATE
 function animateElement() {
   if (ele === 0) {
     MENUCONTAINER.classList.add("fadeIn");
@@ -136,7 +138,6 @@ function changeElement() {
 }
 
 animateElement();
-// readQuestion();
 
 function readQuestion() {
   if (i < mode.length) {
