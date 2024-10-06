@@ -470,6 +470,59 @@ const quiz = [
     Avatar: "./avatars/Joker.png",
     Difficulty: "Hard",
   },
+  {
+    id: "35",
+    Question: "What is the ultimate move of All Might in My Hero Academia?",
+    Correct_Answer: "United States of Smash",
+    Trivia:
+      "Did you know? All Might developed this move after living in the U.S. for several years during his hero training.",
+    Option_1: "United States of Smash",
+    Option_2: "Detroit Smash",
+    Option_3: "Texas Smash",
+    Option_4: "California Smash",
+    Avatar: "./avatars/AllMight.png",
+    Difficulty: "Hard",
+  },
+  {
+    id: "36",
+    Question: "Who is the main antagonist of The Witcher 3: Wild Hunt?",
+    Correct_Answer: "Eredin",
+    Trivia:
+      "Did you know? Eredin is the king of the Wild Hunt and seeks to conquer the world by manipulating the power of the Elder Blood.",
+    Option_1: "Eredin",
+    Option_2: "Imlerith",
+    Option_3: "Gaunter O'Dimm",
+    Option_4: "Emhyr var Emreis",
+    Avatar: "./avatars/Witcher.png",
+    Difficulty: "Hard",
+  },
+  {
+    id: "37",
+    Question:
+      "Which game features the iconic character Cloud Strife as the protagonist?",
+    Correct_Answer: "Final Fantasy VII",
+    Trivia:
+      "Did you know? Cloud's iconic Buster Sword is one of the most recognizable weapons in gaming history.",
+    Option_1: "Final Fantasy VII",
+    Option_2: "Kingdom Hearts",
+    Option_3: "Devil May Cry",
+    Option_4: "The Witcher",
+    Avatar: "./avatars/Cloud.png",
+    Difficulty: "Medium",
+  },
+  {
+    id: "38",
+    Question: "What is the name of the final boss in *Ocarina of Time*?",
+    Correct_Answer: "Ganon",
+    Trivia:
+      "Did you know? Ganon is the beastly form of Ganondorf, who aims to conquer the world using the power of the Triforce.",
+    Option_1: "Ganon",
+    Option_2: "Sheik",
+    Option_3: "Dark Link",
+    Option_4: "Twinrova",
+    Avatar: "./avatars/OcarinaofTime.png",
+    Difficulty: "Medium",
+  },
 ];
 
 export default quiz;

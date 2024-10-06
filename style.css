@@ -63,11 +63,13 @@ body {
 }
 
 .page_container {
-  position: relative;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(12, 1fr);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr); */
   height: 100vh;
+  width: 100%;
 }
 
 .background_dark {
@@ -119,7 +121,7 @@ body {
     width: 30px;
   }
 
-  a {
+  & a {
     color: inherit;
   }
 }
@@ -139,24 +141,19 @@ body {
 }
 
 .container {
+  position: absolute;
+  flex: 1 1 100%;
   transform: translateY(-100vw);
   opacity: 0;
-  grid-column-start: 6;
-  grid-row-start: 6;
-  justify-content: center;
-  align-items: start;
-  flex-direction: column;
   padding-inline: 2.5rem;
-  padding-block: 1.5rem;
   border-radius: 1rem;
   box-shadow: var(--shadow);
   background: transparent;
   width: 850px;
-  height: 600px;
-  position: relative;
+  height: 550px;
   overflow: hidden;
-  z-index: 1000;
-  gap: 2rem;
+  /* z-index: 1000; */
+  /* gap: 0.5rem; */
 }
 
 .hidden {
@@ -381,7 +378,7 @@ body {
   }
 
   .controls {
-    z-index: 3000;
+    /* z-index: 3000; */
     position: absolute;
     bottom: 0;
     left: 0;
@@ -392,23 +389,24 @@ body {
     display: flex;
     align-items: center;
     font-size: 1.25rem;
-    gap: 1rem;
+    gap: 1.5rem;
 
     .icon {
-      fill: #a7a6ff;
       height: 30px;
       width: 30px;
     }
 
-    a {
+    & a {
       color: inherit;
     }
   }
 
   .page_container {
-    display: grid;
-    grid-template-columns: 1fr;
-    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr); */
   }
 
   .avatar {
@@ -429,10 +427,9 @@ body {
     background: transparent;
     width: 100%;
     height: 100vh;
-    position: relative;
+    position: absolute;
     overflow: hidden;
-    z-index: 1000;
-    gap: 2rem;
+    /* z-index: 1000; */
   }
 
   .hidden {
@@ -472,8 +469,7 @@ body {
 
   .quiz_container {
     display: flex;
-    height: 100%;
-    gap: 1rem;
+    gap: 0.25rem;
     font-size: 1.25rem;
     flex-direction: column;
     justify-content: center;
@@ -526,6 +522,7 @@ body {
     color: inherit;
     border: none;
     outline: none;
+    font-weight: bold;
   }
 
   .quiz_options {
@@ -534,8 +531,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 1rem;
-    font-size: 1.25rem;
+    gap: 0.25rem;
   }
 
   .quiz_options > * {
@@ -555,6 +551,7 @@ body {
     justify-content: center;
     align-items: start;
     gap: 1rem;
+    font-weight: bold;
     transition: var(--transition);
     opacity: 0;
     overflow: hidden;
@@ -570,6 +567,7 @@ body {
     border-radius: 0.5rem;
     font-size: 1rem;
     font-family: inherit;
+    font-weight: bold;
     color: inherit;
     cursor: pointer;
   }
@@ -579,6 +577,7 @@ body {
     padding-block: 0.5rem;
     padding-inline: 1rem;
     border: none;
+    font-weight: bold;
     border-radius: 0.5rem;
     font-size: 1rem;
     font-family: inherit;

@@ -1,4 +1,4 @@
-import quiz from "./json/Quiz.js";
+import quiz from "../json/Quiz.js";
 
 //PAGE ELEMENT
 let ele = 0;
@@ -178,7 +178,7 @@ function checkAnswer(selectedAnswer) {
     QUESTION.textContent = `Correct: The answer was: ${mode[i].Correct_Answer}`;
     selectedAnswer.textContent = `✅ ${mode[i].Correct_Answer} `;
     AVATAR.src = mode[i].Avatar;
-    AVATAR.style.opacity = 0.4;
+    AVATAR.style.opacity = 0.2;
     TRIVIACONTAINER.style.opacity = 1;
     score++;
   } else {
@@ -186,7 +186,7 @@ function checkAnswer(selectedAnswer) {
     arr[0].textContent = `✅ ${mode[i].Correct_Answer} `;
     selectedAnswer.textContent = `❌ ${selectedAnswer.textContent} `;
     AVATAR.src = mode[i].Avatar;
-    AVATAR.style.opacity = 0.4;
+    AVATAR.style.opacity = 0.2;
     TRIVIACONTAINER.style.opacity = 1;
   }
 }
