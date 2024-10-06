@@ -128,6 +128,7 @@ HARD.addEventListener("click", () => {
 REPLAY.addEventListener("click", () => {
   ele = 0;
   i = 0;
+  score = 0;
   SCORECONTAINER.classList.remove("fadeIn");
   animateElement();
 });
@@ -164,6 +165,7 @@ function increment() {
 }
 
 function checkAnswer(selectedAnswer) {
+  console.log("checking answer");
   let arr = [];
   OPTIONS.forEach((ele) => {
     if (ele.textContent === mode[i].Correct_Answer) {
