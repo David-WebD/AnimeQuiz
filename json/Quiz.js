@@ -329,175 +329,8 @@ const quiz = [
     Avatar: "./avatars/Bahamut.png",
     Difficulty: "Medium",
   },
-
   {
     id: "25",
-    Question:
-      "In 'Neon Genesis Evangelion', what is the official name of the giant mechs piloted by the main characters?",
-    Correct_Answer: "Evangelions (Evas)",
-    Trivia:
-      "Did you know? The Evangelions are not entirely mechanical; they are part biological beings with human souls inside.",
-    Option_1: "Gundams",
-    Option_2: "Evangelions (Evas)",
-    Option_3: "Titans",
-    Option_4: "Mecha-Titans",
-    Avatar: "./avatars/Evangelion.png",
-    Difficulty: "Hard",
-  },
-  {
-    id: "26",
-    Question:
-      "In 'Dark Souls', which character is known for the phrase 'Praise the Sun!' and offers the player help in their journey?",
-    Correct_Answer: "Solaire of Astora",
-    Trivia:
-      "Did you know? Solaire's obsession with the sun is symbolic of his quest for his own 'inner light' in a world covered in darkness.",
-    Option_1: "Artorias",
-    Option_2: "Solaire of Astora",
-    Option_3: "Siegmeyer of Catarina",
-    Option_4: "Gwyn, Lord of Cinder",
-    Avatar: "./avatars/DarkSouls.png",
-    Difficulty: "Hard",
-  },
-  {
-    id: "27",
-    Question:
-      "In 'One Piece', what is the name of the ancient weapon that is said to have the power to destroy the world?",
-    Correct_Answer: "Pluton",
-    Trivia:
-      "Did you know? Pluton is one of the three ancient weapons mentioned in the story, and its location is rumored to be known by Franky, the Straw Hat's shipwright.",
-    Option_1: "Uranus",
-    Option_2: "Poseidon",
-    Option_3: "Pluton",
-    Option_4: "Neptune",
-    Avatar: "./avatars/OnePiece.png",
-    Difficulty: "Hard",
-  },
-  {
-    id: "28",
-    Question:
-      "In 'Final Fantasy VII', what is the name of the city where the protagonist Cloud Strife begins his journey?",
-    Correct_Answer: "Midgar",
-    Trivia:
-      "Did you know? Midgar is a massive city controlled by the Shinra Electric Power Company and powered by Mako, the life energy of the planet.",
-    Option_1: "Nibelheim",
-    Option_2: "Midgar",
-    Option_3: "Cosmo Canyon",
-    Option_4: "Gold Saucer",
-    Avatar: "./avatars/VII.png",
-    Difficulty: "Hard",
-  },
-  {
-    id: "29",
-    Question:
-      "In 'Attack on Titan', which Titan is known as the most intelligent and strategic among the Nine Titans?",
-    Correct_Answer: "The Beast Titan",
-    Trivia:
-      "Did you know? The Beast Titan is primarily controlled by Zeke Yeager and has the unique ability to throw objects with deadly precision.",
-    Option_1: "The Armored Titan",
-    Option_2: "The Beast Titan",
-    Option_3: "The Founding Titan",
-    Option_4: "The Colossal Titan",
-    Avatar: "./avatars/BeastTitan.png",
-    Difficulty: "Hard",
-  },
-  {
-    id: "30",
-    Question:
-      "In 'The Legend of Zelda: Majora's Mask', how many days do you have to stop the moon from crashing into the world?",
-    Correct_Answer: "Three",
-    Trivia:
-      "Did you know? Players can use the 'Song of Time' to go back to the first day, resetting the clock but keeping most of their key items.",
-    Option_1: "Three",
-    Option_2: "Five",
-    Option_3: "Seven",
-    Option_4: "Ten",
-    Avatar: "./avatars/MajorasMask.png",
-    Difficulty: "Hard",
-  },
-  {
-    id: "31",
-    Question:
-      "In 'Fullmetal Alchemist: Brotherhood', what is the fundamental law of alchemy called that governs all exchanges?",
-    Correct_Answer: "Equivalent Exchange",
-    Trivia:
-      "Did you know? The law of Equivalent Exchange states that to gain something, something of equal value must be lost, a principle that defines the characters' journey.",
-    Option_1: "Automail Exchange",
-    Option_2: "Equivalent Exchange",
-    Option_3: "Philosopher's Exchange",
-    Option_4: "State Alchemy",
-    Avatar: "./avatars/Alchemy.png",
-    Difficulty: "Hard",
-  },
-  {
-    id: "32",
-    Question:
-      "In 'The Witcher 3: Wild Hunt', what is the name of the Witcher who mentors the protagonist, Geralt of Rivia?",
-    Correct_Answer: "Vesemir",
-    Trivia:
-      "Did you know? Vesemir is the oldest Witcher alive and one of the few who survived the brutal Trial of the Grasses, a mutation process that grants Witchers their powers.",
-    Option_1: "Eskel",
-    Option_2: "Lambert",
-    Option_3: "Vesemir",
-    Option_4: "Letho",
-    Avatar: "./avatars/Witcher.png",
-    Difficulty: "Hard",
-  },
-  {
-    id: "33",
-    Question:
-      "In 'Naruto', what is the name of the jutsu that Itachi Uchiha uses to trap his opponents in an illusionary world?",
-    Correct_Answer: "Tsukuyomi",
-    Trivia:
-      "Did you know? Tsukuyomi is one of the most powerful genjutsu, able to control an opponent’s perception of time, making seconds of torture feel like days.",
-    Option_1: "Amaterasu",
-    Option_2: "Tsukuyomi",
-    Option_3: "Susanoo",
-    Option_4: "Kamui",
-    Avatar: "./avatars/Itachi.png",
-    Difficulty: "Hard",
-  },
-  {
-    id: "34",
-    Question:
-      "In 'Persona 5', what is the protagonist's code name when he joins the Phantom Thieves?",
-    Correct_Answer: "Joker",
-    Trivia:
-      "Did you know? Joker's real name is Ren Amamiya in the anime adaptation of 'Persona 5', though the player can choose any name in the game.",
-    Option_1: "Skull",
-    Option_2: "Fox",
-    Option_3: "Joker",
-    Option_4: "Crow",
-    Avatar: "./avatars/Joker.png",
-    Difficulty: "Hard",
-  },
-  {
-    id: "35",
-    Question: "What is the ultimate move of All Might in My Hero Academia?",
-    Correct_Answer: "United States of Smash",
-    Trivia:
-      "Did you know? All Might developed this move after living in the U.S. for several years during his hero training.",
-    Option_1: "United States of Smash",
-    Option_2: "Detroit Smash",
-    Option_3: "Texas Smash",
-    Option_4: "California Smash",
-    Avatar: "./avatars/AllMight.png",
-    Difficulty: "Hard",
-  },
-  {
-    id: "36",
-    Question: "Who is the main antagonist of The Witcher 3: Wild Hunt?",
-    Correct_Answer: "Eredin",
-    Trivia:
-      "Did you know? Eredin is the king of the Wild Hunt and seeks to conquer the world by manipulating the power of the Elder Blood.",
-    Option_1: "Eredin",
-    Option_2: "Imlerith",
-    Option_3: "Gaunter O'Dimm",
-    Option_4: "Emhyr var Emreis",
-    Avatar: "./avatars/Witcher.png",
-    Difficulty: "Hard",
-  },
-  {
-    id: "37",
     Question:
       "Which game features the iconic character Cloud Strife as the protagonist?",
     Correct_Answer: "Final Fantasy VII",
@@ -511,7 +344,7 @@ const quiz = [
     Difficulty: "Medium",
   },
   {
-    id: "38",
+    id: "26",
     Question: "What is the name of the final boss in *Ocarina of Time*?",
     Correct_Answer: "Ganon",
     Trivia:
@@ -522,6 +355,173 @@ const quiz = [
     Option_4: "Twinrova",
     Avatar: "./avatars/OcarinaofTime.png",
     Difficulty: "Medium",
+  },
+
+  {
+    id: "27",
+    Question:
+      "In 'Neon Genesis Evangelion', what is the official name of the giant mechs piloted by the main characters?",
+    Correct_Answer: "Evangelions (Evas)",
+    Trivia:
+      "Did you know? The Evangelions are not entirely mechanical; they are part biological beings with human souls inside.",
+    Option_1: "Gundams",
+    Option_2: "Evangelions (Evas)",
+    Option_3: "Titans",
+    Option_4: "Mecha-Titans",
+    Avatar: "./avatars/Evangelion.png",
+    Difficulty: "Hard",
+  },
+  {
+    id: "28",
+    Question:
+      "In 'Dark Souls', which character is known for the phrase 'Praise the Sun!' and offers the player help in their journey?",
+    Correct_Answer: "Solaire of Astora",
+    Trivia:
+      "Did you know? Solaire's obsession with the sun is symbolic of his quest for his own 'inner light' in a world covered in darkness.",
+    Option_1: "Artorias",
+    Option_2: "Solaire of Astora",
+    Option_3: "Siegmeyer of Catarina",
+    Option_4: "Gwyn, Lord of Cinder",
+    Avatar: "./avatars/DarkSouls.png",
+    Difficulty: "Hard",
+  },
+  {
+    id: "29",
+    Question:
+      "In 'One Piece', what is the name of the ancient weapon that is said to have the power to destroy the world?",
+    Correct_Answer: "Pluton",
+    Trivia:
+      "Did you know? Pluton is one of the three ancient weapons mentioned in the story, and its location is rumored to be known by Franky, the Straw Hat's shipwright.",
+    Option_1: "Uranus",
+    Option_2: "Poseidon",
+    Option_3: "Pluton",
+    Option_4: "Neptune",
+    Avatar: "./avatars/OnePiece.png",
+    Difficulty: "Hard",
+  },
+  {
+    id: "30",
+    Question:
+      "In 'Final Fantasy VII', what is the name of the city where the protagonist Cloud Strife begins his journey?",
+    Correct_Answer: "Midgar",
+    Trivia:
+      "Did you know? Midgar is a massive city controlled by the Shinra Electric Power Company and powered by Mako, the life energy of the planet.",
+    Option_1: "Nibelheim",
+    Option_2: "Midgar",
+    Option_3: "Cosmo Canyon",
+    Option_4: "Gold Saucer",
+    Avatar: "./avatars/VII.png",
+    Difficulty: "Hard",
+  },
+  {
+    id: "31",
+    Question:
+      "In 'Attack on Titan', which Titan is known as the most intelligent and strategic among the Nine Titans?",
+    Correct_Answer: "The Beast Titan",
+    Trivia:
+      "Did you know? The Beast Titan is primarily controlled by Zeke Yeager and has the unique ability to throw objects with deadly precision.",
+    Option_1: "The Armored Titan",
+    Option_2: "The Beast Titan",
+    Option_3: "The Founding Titan",
+    Option_4: "The Colossal Titan",
+    Avatar: "./avatars/BeastTitan.png",
+    Difficulty: "Hard",
+  },
+  {
+    id: "32",
+    Question:
+      "In 'The Legend of Zelda: Majora's Mask', how many days do you have to stop the moon from crashing into the world?",
+    Correct_Answer: "Three",
+    Trivia:
+      "Did you know? Players can use the 'Song of Time' to go back to the first day, resetting the clock but keeping most of their key items.",
+    Option_1: "Three",
+    Option_2: "Five",
+    Option_3: "Seven",
+    Option_4: "Ten",
+    Avatar: "./avatars/MajorasMask.png",
+    Difficulty: "Hard",
+  },
+  {
+    id: "33",
+    Question:
+      "In 'Fullmetal Alchemist: Brotherhood', what is the fundamental law of alchemy called that governs all exchanges?",
+    Correct_Answer: "Equivalent Exchange",
+    Trivia:
+      "Did you know? The law of Equivalent Exchange states that to gain something, something of equal value must be lost, a principle that defines the characters' journey.",
+    Option_1: "Automail Exchange",
+    Option_2: "Equivalent Exchange",
+    Option_3: "Philosopher's Exchange",
+    Option_4: "State Alchemy",
+    Avatar: "./avatars/Alchemy.png",
+    Difficulty: "Hard",
+  },
+  {
+    id: "34",
+    Question:
+      "In 'The Witcher 3: Wild Hunt', what is the name of the Witcher who mentors the protagonist, Geralt of Rivia?",
+    Correct_Answer: "Vesemir",
+    Trivia:
+      "Did you know? Vesemir is the oldest Witcher alive and one of the few who survived the brutal Trial of the Grasses, a mutation process that grants Witchers their powers.",
+    Option_1: "Eskel",
+    Option_2: "Lambert",
+    Option_3: "Vesemir",
+    Option_4: "Letho",
+    Avatar: "./avatars/Witcher.png",
+    Difficulty: "Hard",
+  },
+  {
+    id: "35",
+    Question:
+      "In 'Naruto', what is the name of the jutsu that Itachi Uchiha uses to trap his opponents in an illusionary world?",
+    Correct_Answer: "Tsukuyomi",
+    Trivia:
+      "Did you know? Tsukuyomi is one of the most powerful genjutsu, able to control an opponent’s perception of time, making seconds of torture feel like days.",
+    Option_1: "Amaterasu",
+    Option_2: "Tsukuyomi",
+    Option_3: "Susanoo",
+    Option_4: "Kamui",
+    Avatar: "./avatars/Itachi.png",
+    Difficulty: "Hard",
+  },
+  {
+    id: "36",
+    Question:
+      "In 'Persona 5', what is the protagonist's code name when he joins the Phantom Thieves?",
+    Correct_Answer: "Joker",
+    Trivia:
+      "Did you know? Joker's real name is Ren Amamiya in the anime adaptation of 'Persona 5', though the player can choose any name in the game.",
+    Option_1: "Skull",
+    Option_2: "Fox",
+    Option_3: "Joker",
+    Option_4: "Crow",
+    Avatar: "./avatars/Joker.png",
+    Difficulty: "Hard",
+  },
+  {
+    id: "37",
+    Question: "What is the ultimate move of All Might in My Hero Academia?",
+    Correct_Answer: "United States of Smash",
+    Trivia:
+      "Did you know? All Might developed this move after living in the U.S. for several years during his hero training.",
+    Option_1: "United States of Smash",
+    Option_2: "Detroit Smash",
+    Option_3: "Texas Smash",
+    Option_4: "California Smash",
+    Avatar: "./avatars/AllMight.png",
+    Difficulty: "Hard",
+  },
+  {
+    id: "38",
+    Question: "Who is the main antagonist of The Witcher 3: Wild Hunt?",
+    Correct_Answer: "Eredin",
+    Trivia:
+      "Did you know? Eredin is the king of the Wild Hunt and seeks to conquer the world by manipulating the power of the Elder Blood.",
+    Option_1: "Eredin",
+    Option_2: "Imlerith",
+    Option_3: "Gaunter O'Dimm",
+    Option_4: "Emhyr var Emreis",
+    Avatar: "./avatars/Witcher.png",
+    Difficulty: "Hard",
   },
 ];
 

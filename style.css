@@ -72,6 +72,11 @@ body {
   width: 100%;
 }
 
+.light,
+.dark {
+  cursor: pointer;
+}
+
 .background_dark {
   color: var(--light);
   background-color: var(--dark);
